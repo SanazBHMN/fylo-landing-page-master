@@ -1,0 +1,23 @@
+{
+  "name": "fylo-landing-page",
+  "version": "1.0.0",
+  "description": "![Design preview for the Fylo landing page with two column layout challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass -w scss/styles.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanazBHMN/fylo-landing-page-master.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SanazBHMN/fylo-landing-page-master/issues"
+  },
+  "homepage": "https://github.com/SanazBHMN/fylo-landing-page-master#readme",
+  "devDependencies": {
+    "sass": "^1.69.0"
+  }
+}

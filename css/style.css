@@ -1,0 +1,10 @@
+:root {
+  --primary-color: hsl(243, 87%, 12%);
+  --primary-color-desaturated: hsl(238, 22%, 44%);
+  --secondary-color: hsl(224, 93%, 58%);
+  --secondary-color-moderate: hsl(170, 45%, 43%);
+  --text-color: hsl(240, 75%, 98%);
+  --text-color-dark: hsl(0, 0%, 75%);
+}
+
+/*# sourceMappingURL=style.css.map */
