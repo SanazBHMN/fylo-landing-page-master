@@ -7,4 +7,22 @@
   --text-color-dark: hsl(0, 0%, 75%);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=style.css.map */
