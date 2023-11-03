@@ -34,6 +34,10 @@ img {
   color: var(--text-color);
 }
 
+.icon {
+  width: 20px;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -57,6 +61,39 @@ img {
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
+}
+
+.section-2__info {
+  text-align: center;
+}
+.section-2__link {
+  width: fit-content;
+  border-bottom: 1px solid var(--secondary-color-moderate);
+  margin: 2.8rem auto;
+}
+.section-2__link a {
+  display: flex;
+  gap: 0.5rem;
+  color: var(--secondary-color-moderate);
+}
+.section-2 .testimonial {
+  width: 400px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 8px var(--text-color-dark);
+  padding: 1rem;
+}
+.section-2 .testimonial__text {
+  margin-top: 1rem;
+}
+.section-2 .testimonial__profile {
+  display: flex;
+  gap: 0.7rem;
+  margin-top: 1.7rem;
+}
+.section-2 .testimonial__avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
