@@ -25,4 +25,17 @@ a {
   text-decoration: none;
 }
 
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__list {
+  display: flex;
+  gap: 1.5rem;
+}
+.nav__link {
+  color: var(--primary-color-desaturated);
+}
+
 /*# sourceMappingURL=style.css.map */
