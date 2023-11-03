@@ -25,10 +25,22 @@ a {
   text-decoration: none;
 }
 
+img {
+  width: 400px;
+}
+
+.button {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.nav__logo .logo {
+  width: 165px;
 }
 .nav__list {
   display: flex;
@@ -36,6 +48,15 @@ a {
 }
 .nav__link {
   color: var(--primary-color-desaturated);
+}
+
+.section-1__info {
+  text-align: center;
+}
+.section-1__form form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
 }
 
 /*# sourceMappingURL=style.css.map */

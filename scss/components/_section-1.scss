@@ -1,0 +1,13 @@
+.section-1 {
+  &__info {
+    text-align: center;
+  }
+
+  &__form {
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 0.7rem;
+    }
+  }
+}
