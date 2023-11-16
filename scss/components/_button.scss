@@ -4,5 +4,10 @@
   font-weight: bold;
   padding: 0.7rem;
   border: none;
-  border-radius: 5px;
+  border-radius: 3px;
+  outline: none;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
